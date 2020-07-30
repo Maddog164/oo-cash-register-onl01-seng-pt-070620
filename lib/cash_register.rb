@@ -46,8 +46,8 @@ class CashRegister
 
     def void_last_transaction
       i = 1
-      while @last_transaction[2]>i do
-        binding.pry
+      while @last_transaction[2]>=i do
+        binding.pry 
         @total = @total-(@last_transaction[1])
         i+=1
       end
