@@ -18,6 +18,10 @@ class CashRegister
     @total = (@total+price)*(1-(@discount*(.01)))
   end
 
+  def apply_discount
+
+  end
+
 
 
 end
