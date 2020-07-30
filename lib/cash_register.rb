@@ -48,10 +48,9 @@ class CashRegister
       i = 1
       while @last_transaction[2]>i do
         @total = @total-(@last_transaction[1])
+        i+=1
       end
       @items = @items.delete(@last_transaction[0])
-      @total
-      @items
     end
 
 end
