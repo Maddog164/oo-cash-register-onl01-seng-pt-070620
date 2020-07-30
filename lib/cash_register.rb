@@ -53,5 +53,5 @@ class CashRegister
       @total
       @items
     end
-  
+
 end
