@@ -3,8 +3,12 @@ class CashRegister
 
   attr_accessor :total, :last_transaction
 
-  def initialize(emp_disc=20)
+  def initialize
     @total = 0
+  end
+
+  def discount(emp_discount=20)
+
   end
 
 
