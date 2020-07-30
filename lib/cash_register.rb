@@ -52,10 +52,6 @@ class CashRegister
       @items = @items.delete(@last_transaction[0])
       @total
       @items
-
-      end
-      end
-
     end
-
+  
 end
