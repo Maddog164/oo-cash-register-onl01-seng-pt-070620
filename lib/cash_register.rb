@@ -3,9 +3,9 @@ class CashRegister
 
   attr_accessor :total, :last_transaction
 
-  def initialize(emp_discount=20)
+  def initialize(discount=20)
     @total = 0
-    @discount = emp_discount
+    @discount = discount
     binding.pry
   end
 
