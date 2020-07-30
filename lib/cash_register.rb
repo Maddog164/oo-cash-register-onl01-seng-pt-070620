@@ -1,5 +1,5 @@
 require 'pry'
-class CashRegister 
+class CashRegister
 
   attr_acessor :total, :last_transaction
 
